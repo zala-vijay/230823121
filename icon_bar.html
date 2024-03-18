@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horizontal Navbar with Icons</title>
+<style>
+  /* Inline CSS */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(255, 251, 251);
+    color: rgb(255, 255, 255);
+  }
+
+  .navbar a.icon {
+    float: right;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+  }
+
+  /* Icons */
+  .photo {
+    background-image: url('0004.svg');
+  }
+
+  .notification {
+    background-image: url('bell_icon.svg');
+  }
+
+  .message {
+    background-image: url('icon_mass.svg');
+  }
+
+  .login {
+    background-image: url('user_icon.svg');
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#" class="photo icon"></a>
+  <a href="#" class="notification icon"></a>
+  <a href="#" class="message icon"></a>
+  <a href="#" class="login icon"></a>
+</div>
+
+</body>
+</html>
