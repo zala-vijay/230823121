@@ -39,7 +39,7 @@ body {
 
   /* Icons */
   .photo {
-    background-image: url('user_icon.svg');
+    background-image: url('account_icon.svg');
   }
 
   .notification {
