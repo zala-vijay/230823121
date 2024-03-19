@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Horizontal Navbar with Icons</title>
-<style>
-  /* Inline CSS */
-  body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -61,16 +53,3 @@
   .login {
     background-image: url('user_icon.svg');
   }
-</style>
-</head>
-<body>
-
-<div class="navbar">
-  <a href="#" class="photo icon"></a>
-  <a href="#" class="notification icon"></a>
-  <a href="#" class="message icon"></a>
-  <a href="#" class="login icon"></a>
-</div>
-
-</body>
-</html>
